@@ -1,0 +1,23 @@
+#box {
+	height: 400px;
+	width: 600px;
+	background-color: yellow;
+	padding: 50px;
+	position: relative;
+}
+
+#meepo {
+	height: 80px;
+	width: 80px;
+	position: absolute;
+	display: none;
+	top: 0px;
+	left: 0px;
+}
+
+* {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
